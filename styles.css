@@ -66,7 +66,6 @@ a {
   font-size: 2rem;
   font-weight: bold;
 }
-
 .link-arrow::after {
   content: "-->";
   margin-left: 5px;
@@ -75,9 +74,36 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
-
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* BADGES */
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  white-space: nowrap; /* prevents text to appear on new line*/
+}
+.badge--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.badge--secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
