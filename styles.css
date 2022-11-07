@@ -254,4 +254,5 @@ a {
   .card--secondary .card__header {
     background: var(--color-secondary);
     color: #fff;
+  }
 }
