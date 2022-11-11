@@ -15,7 +15,7 @@
 
     <title>BWAKANANGSHITNAWEBSITE</title>
   </head>
-  <body>
+  <body style="padding: 5rem">
     <h1>Heading 1</h1>
 
     <h2>Heading 2</h2>
@@ -50,14 +50,131 @@
       <button class="btn btn--accent">Search</button>
     </div>
 
-    <div style="width: 30%">
-      <div class="card card--primary">
-        <header class="card__header">Card Title</header>
-        <div class="card__body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-          laudantium!
+    <div style="width: 50%; padding: 4rem">
+      <div class="plan plan--popular">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">Entry</h3>
+            <span class="plan__price">$14</span>
+            <span class="plan__billing-cycle">/month</span>
+            <span class="badge badge--secondary bade--small">10% OFF</span>
+            <span class="plan__description">East start on the cloud</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Websites</li>
+              <li class="list__item">Unlimited Bandwidth</li>
+              <li class="list__item">100 GB SSD Storage</li>
+              <li class="list__item">3 GB RAM</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="media">
+      <div class="media__image">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#snap"></use>
+        </svg>
+      </div>
+      <div class="media__body">
+        <h3 class="media__title">Easy Start & Managed Updates</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          debitis quaerat porro veniam beatae amet facere. Laboriosam eos ipsum
+          officia.
+        </p>
+      </div>
+    </div>
+
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        assumenda, exercitationem eos ut quaerat animi pariatur odit repudiandae
+        deleniti quam.
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Smith</h3>
+            <p class="quote__organization">ABC Company</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
+
+    <div class="grid grid--1x2">
+      <div style="height: 100px; background: gold"></div>
+      <div style="height: 100px; background: dodgerblue"></div>
+    </div>
+
+    <div class="card testimonial">
+      <div class="grid grid--1x2">
+        <div class="testimonial__image">
+          <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small">
+              <use xlink:href="images/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            optio officiis dolore earum error eaque perferendis laudantium sed
+            praesentium dolorum.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">John Smith</h3>
+                <p class="quote__organization">ABC Company</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="callout callout--primary">
+      <div class="grid grid--1x2">
+        <div class="callout__content">
+          <h2 class="callout__heading">Ready to Get Started</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus amet iste illum facere doloremque ullam vitae atque
+            ipsa similique sit?
+          </p>
+        </div>
+        <a href="#" class="btn btn--secondary btn--long">Get Started</a>
+      </div>
+    </div>
+
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore,
+        magnam!
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
